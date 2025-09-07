@@ -1,0 +1,80 @@
+# Guía de Ejercicios - Programación I
+
+Este repositorio contiene 10 ejercicios básicos de programación desarrollados en Python para la materia de programción I.
+
+## Descripción de los Ejercicios
+
+### Ejercicio 1: Promedio de Estudiante
+- **Función**: Calcula el promedio de tres notas y determina si el estudiante aprueba
+- **Entrada**: Nombre del estudiante y tres notas
+- **Salida**: Promedio y estado de aprobación (≥6.0)
+- **Características**: Valida que las notas no excedan 10
+
+### Ejercicio 2: Equilibrio de Género
+- **Función**: Analiza la distribución de género en un grupo
+- **Entrada**: Cantidad de hombres y mujeres
+- **Salida**: Porcentajes y si el grupo está equilibrado (diferencia ≤10%)
+
+### Ejercicio 3: Cálculo de Nómina
+- **Función**: Simula el cálculo de salario para 20 empleados
+- **Parámetros**: 6 días/semana, 2 horas extra/día, $5.00/hora
+- **Salida**: Salario individual y total de nómina
+
+### Ejercicio 4: Ordenar Edades
+- **Función**: Determina quién es mayor, medio y menor entre tres personas
+- **Entrada**: Tres edades
+- **Salida**: Edades ordenadas de mayor a menor
+
+### Ejercicio 5: Menú Interactivo
+- **Función**: Menú con tres opciones principales
+- **Opciones**: 
+  - Mostrar día de la semana (1-7)
+  - Recomendar actividad según clima
+  - Salir
+- **Características**: Se repite hasta que el usuario elija salir
+
+### Ejercicio 6: Juego de Adivinanza
+- **Función**: Juego donde el usuario debe adivinar un número
+- **Rango**: Número aleatorio entre 1 y 100
+- **Características**: Proporciona pistas "Mayor" o "Menor" y cuenta intentos
+
+### Ejercicio 7: Calculadora Simple
+- **Función**: Realiza operaciones matemáticas básicas
+- **Operaciones**: Suma, resta, multiplicación, división
+- **Características**: Se repite hasta que el usuario decida salir
+
+### Ejercicio 8: Clasificador de Números
+- **Función**: Clasifica un número según múltiples criterios
+- **Salida**: Positivo/negativo/cero y par/impar
+
+### Ejercicio 9: Tabla de Multiplicar
+- **Función**: Genera la tabla de multiplicar de un número
+- **Rango**: Del 1 al 10
+- **Entrada**: Cualquier número entero
+
+### Ejercicio 10: Mejor Día
+- **Función**: Pregunta días hasta encontrar el "mejor día"
+- **Condición**: El programa termina cuando se ingresa "viernes"
+- **Características**: No diferencia mayúsculas y minúsculas
+
+## Cómo se usa
+
+1. Ejecuta cada archivo `.py` individualmente
+2. Sigue las instrucciones en pantalla
+3. Ingresa los datos solicitados
+4. Observa los resultados
+
+## Requisitos
+
+- Python 3.x
+- No requiere librerías adicionales (solo `random` para el ejercicio 6)
+
+## Validaciones que hice
+
+- Las notas en el ejercicio 1 tienen un máximo de 10
+- Los porcentajes en el ejercicio 2 se muestran con un decimal
+- El ejercicio 10 acepta "viernes" en cualquier formato de mayúsculas/minúsculas
+
+## Autor
+Hecho por Pablo José Palacios Hernández
+Desarrollado para la asignatura Programación I
